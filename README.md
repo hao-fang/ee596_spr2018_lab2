@@ -23,7 +23,7 @@ This new Lambda function will tell you the recognized intent and slots in the re
   $ cd lambdaFunc
   $ zip -r ../lambdaFunc.zip *
   ```
-	You may also use the `upload_lambda_func.sh`.
+	You may also use the script `upload_lambda_func.sh`.
 * Change your Alexa Skill's Endpoint ARN to this new Lambda Function.
 * Try to talk with your Alexa Skill. Here a few sample utterances.
 	```
