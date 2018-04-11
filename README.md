@@ -25,7 +25,7 @@ This new Lambda function will tell you the recognized intent and slots in the re
   ```
 	You may also use the script `upload_lambda_func.sh`.
 * Change your Alexa Skill's Endpoint ARN to this new Lambda Function.
-* Try to talk with your Alexa Skill. Here a few sample utterances.
+* Try to talk with your Alexa Skill. Here are a few sample utterances.
 	```
 	what's my favorite color
 	my favorite color is red
@@ -34,7 +34,7 @@ This new Lambda function will tell you the recognized intent and slots in the re
 	cancel
 	stop
 	```
-* Explain the `Unhandled` handler in `lambdaFunc/index.js`.
+* Study the `Unhandled` handler in `lambdaFunc/index.js`.
 
 ## Task 2: Create an Interaction Model to obtain the recognized user utterances
 
