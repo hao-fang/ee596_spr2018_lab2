@@ -9,9 +9,6 @@ In this task, we will re-use the same Alexa Skill you created in Lab 1 and
 replace the AWS Lambda function.
 This new Lambda function will tell you the recognized intent and slots in the request.
 
-### Readings
-* [Handle Requests Sent by Alexa](https://developer.amazon.com/docs/custom-skills/handle-requests-sent-by-alexa.html)
-
 ### Steps
 * Clone the repository
   ```
@@ -35,6 +32,7 @@ This new Lambda function will tell you the recognized intent and slots in the re
 	stop
 	```
 * Study the `Unhandled` handler in `lambdaFunc/index.js`.
+	* You can read [this document](https://developer.amazon.com/docs/custom-skills/handle-requests-sent-by-alexa.html) from Amazon.
 
 ## Task 2: Create an Interaction Model to obtain the recognized user utterances
 
@@ -70,7 +68,7 @@ For your own project, you can improve the slot by adding "expected" user utteran
 * Create an new Alexa Skill, and upload the `MODEL_JSON` to your Alexa Skill.
 * Set the Endpoint of your Alexa Skill to the AWS Lambda function you created in Task 1.
 * Try to talk with your Alexa Skill. 
-	* You should use your Echo Dot and try something to fool the Amazon's speech recognition.
+	* You should use your Echo Dot and try something to fool Alexa's speech recognition.
 	* You can check the recognition result in your Alexa App.
 
 
@@ -89,3 +87,20 @@ your spoken language understanding module.
 * [Dialogflow](https://dialogflow.com) ([pricing](https://dialogflow.com/pricing/))
 * [Microsoft LUIS](https://www.luis.ai/home) ([pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/language-understanding-intelligent-services/))
 * [Wit.ai](https://wit.ai) ([pricing](https://wit.ai/faq))
+
+## Lab Checkoff
+* Task 1:
+  * Illustrate your sample dialog in Task 1 using the Alexa Simulator.
+	* Explain the Lambda function. 
+* Task 2:
+	* Illustrate your sample dialog in Task 2 using an Echo dot and the Alexa App
+		on your phone.
+	* Can you fool Alexa's speech recognition system?
+* Task 3 (Optional):
+	* Explain your plan about interaction model for your project.
+  * Deploy an initial interaction model.
+
+## Lab Report
+* Briefly explain the Lambda function in Task 1.
+* Discuss the speech recognition error if you are able to find any.
+* Briefly discuss the interaction model you plan to use for your project.
