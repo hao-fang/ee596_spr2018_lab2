@@ -46,7 +46,7 @@ For your own project, you can improve the slot by adding "expected" user utteran
 
 ### Steps:
 * Install nltk==2.0.5
-	* You may get the following error if you directly using `pip install nltk==2.0.5`.
+	* You may get the following error if you directly use `pip install nltk==2.0.5`.
 	```
 	urllib2.HTTPError: HTTP Error 403: SSL is required
 	```
