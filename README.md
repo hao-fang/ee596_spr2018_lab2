@@ -72,7 +72,7 @@ For your own project, you can improve the slot by adding "expected" user utteran
 	* You can check the recognition result in your Alexa App.
 
 
-## Task 3: (Optional) Design an interaction model for your project
+## Task 3: (Optional) Design an Interaction Model for your project
 
 In this task, you will design an interaction model for your project based on
 what you learned from Task 1 and Task 2.
