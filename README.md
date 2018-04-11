@@ -3,7 +3,7 @@
 Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fang.github.io/ee596_spr2018/)
 
 
-## Taks 1: Create a Lambda Function that tells you the Intent and Slots
+## Task 1: Create a Lambda Function that tells you the Intent and Slots
 
 In this task, we will re-use the same Alexa Skill you created in Lab 1 and
 replace the AWS Lambda function.
