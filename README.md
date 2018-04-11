@@ -91,13 +91,12 @@ your spoken language understanding module.
 ## Lab Checkoff
 * Task 1:
   * Illustrate your sample dialog in Task 1 using the Alexa Simulator.
-	* Explain the Lambda function. 
+  * Be pepared to answer questions about the Lambda function. 
 * Task 2:
-	* Illustrate your sample dialog in Task 2 using an Echo dot and the Alexa App
-		on your phone.
-	* Can you fool Alexa's speech recognition system?
+  * Illustrate your sample dialog in Task 2 using an Echo dot and the Alexa App on your phone. 
+  * Can you fool Alexa's speech recognition?
 * Task 3 (Optional):
-	* Explain your plan about interaction model for your project.
+  * Explain your plan about interaction model for your project.
   * Deploy an initial interaction model.
 
 ## Lab Report
