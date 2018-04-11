@@ -57,7 +57,7 @@ For your own project, you can improve the slot by adding "expected" user utteran
 		DEFAULT_URL = "https://pypi.python.org/packages/source/d/distribute/"
 		```
 	* Install the package using pip. You may consider install your package in an
-		isolated virtual environment [virtualenv](https://virtualenv.pypa.io/en/stable/).
+		isolated virtual environment ([virtualenv](https://virtualenv.pypa.io/en/stable/)).
 		```
 		$ source ee596/bin/activate
 		$ pip install ./nltk-2.0.5
