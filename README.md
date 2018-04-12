@@ -48,7 +48,7 @@ For your own project, you can improve the slot by adding "expected" user utteran
 	```
 	urllib2.HTTPError: HTTP Error 403: SSL is required
 	```
-	* Please download the package from [here](https://pypi.python.org/packages/source/d/nltk/nltk-2.0.5.tar.gz).
+	* Please download the package from [here](https://pypi.python.org/pypi/nltk/2.0.5).
 	Untar the package, and edit `distribute_setup.py`.
 		* Change `http` to `https` in line 50 
 		```
